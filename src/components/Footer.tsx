@@ -29,9 +29,8 @@ const socialLinks = [
 ];
 
 const openingHours = [
-  { day: 'Senin \u2013 Jumat', time: '10.00 \u2013 22.00' },
-  { day: 'Sabtu', time: '09.00 \u2013 23.00' },
-  { day: 'Minggu', time: '09.00 \u2013 22.00' },
+  { day: 'Nusa Indah', time: '24 JAM' },
+  { day: 'Pagar Dewa', time: '10.00 \u2013 23.30' },
 ];
 
 export default function Footer() {
@@ -203,7 +202,7 @@ export default function Footer() {
                 />
                 <div>
                   <span className="font-heading font-bold text-xl tracking-tight block">Well The Food</span>
-                  <span className="text-xs text-leaf font-medium tracking-widest uppercase">Kuliner Modern</span>
+                  <span className="text-xs text-leaf font-medium tracking-widest ">Everyday food spot you’ll love</span>
                 </div>
               </a>
               <motion.p
@@ -328,9 +327,10 @@ export default function Footer() {
               <h4 className="font-heading font-bold text-lg mb-6">Kunjungi Kami</h4>
               <ul className="space-y-4">
                 {[
-                  { icon: MapPin, content: 'Jl. Sudirman No. 123,\nJakarta Pusat, 10220\nIndonesia', href: null },
+                  { icon: MapPin, content: 'Jl. Nusa Indah,\nBengkulu, \nIndonesia', href: null },
+                  { icon: MapPin, content: 'Jl. Pagar Dewa,\nBengkulu, \nIndonesia', href: null },
                   { icon: Phone, content: '+62 21 1234 5678', href: 'tel:+622112345678' },
-                  { icon: Mail, content: 'hello@wellthefood.com', href: 'mailto:hello@wellthefood.com' },
+                  { icon: Mail, content: 'info@wellthefood.com', href: 'mailto:info@wellthefood.com' },
                 ].map((item, i) => (
                   <motion.li
                     key={i}
@@ -392,7 +392,7 @@ export default function Footer() {
               >
                 <Heart className="w-4 h-4 text-golden fill-golden" />
               </motion.span>
-              di Bengkulu
+              di Bengkulu (Prima Rasa Selaras)
             </motion.p>
           </div>
         </div>

@@ -40,8 +40,8 @@ export default function CTABanner() {
 
   const features = [
     { icon: Clock, label: 'Pengantaran 30 Menit', desc: 'Hangat & segar sampai rumah' },
-    { icon: Truck, label: 'Gratis Ongkir', desc: 'Untuk pemesanan di atas Rp 150K' },
-    { icon: Phone, label: 'Pemesanan Mudah', desc: 'Online atau telepon kapan saja' },
+    { icon: Truck, label: 'Pesan Online', desc: 'Untuk pemesanan via grabfood' },
+    { icon: Phone, label: 'Informasi', desc: 'Bisa reservasi' },
   ];
 
   const floatingIcons = [
@@ -164,7 +164,7 @@ export default function CTABanner() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <motion.a
-              href="https://wellthefood.com/"
+              href="https://menu.wellthefood.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-8 py-4 bg-golden text-charcoal font-bold text-base rounded-full interactive"
@@ -179,20 +179,6 @@ export default function CTABanner() {
               >
                 <ArrowRight className="w-5 h-5" />
               </motion.span>
-            </motion.a>
-            <motion.a
-              href="tel:+622112345678"
-              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold text-base rounded-full interactive"
-              whileHover={{ scale: 1.05, backgroundColor: 'rgba(255,255,255,0.1)', borderColor: 'rgba(255,255,255,0.5)' }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <motion.span
-                animate={{ rotate: [0, 15, -15, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              >
-                <Phone className="w-5 h-5" />
-              </motion.span>
-              Telepon untuk Pesan
             </motion.a>
           </motion.div>
 

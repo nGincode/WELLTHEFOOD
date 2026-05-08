@@ -139,10 +139,10 @@ export default function Hero() {
           >
             <div
               className={`${i % 3 === 0
-                  ? 'w-3 h-3 rounded-full bg-golden/40'
-                  : i % 3 === 1
-                    ? 'w-4 h-4 border border-leaf/30 rotate-45'
-                    : 'w-2 h-2 bg-white/20 rounded-sm'
+                ? 'w-3 h-3 rounded-full bg-golden/40'
+                : i % 3 === 1
+                  ? 'w-4 h-4 border border-leaf/30 rotate-45'
+                  : 'w-2 h-2 bg-white/20 rounded-sm'
                 }`}
             />
           </motion.div>
@@ -232,7 +232,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
         >
           <motion.a
-            href="https://wellthefood.com/menu"
+            href="https://menu.wellthefood.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-golden text-charcoal font-bold text-base rounded-full interactive"
@@ -271,7 +271,7 @@ export default function Hero() {
         >
           {[
             { icon: MapPin, text: 'Bengkulu' },
-            { icon: Clock, text: 'Buka 10.00 \u2013 22.00' },
+            { icon: Clock, text: 'Buka 24 Jam' },
           ].map((item, i) => (
             <motion.span
               key={item.text}

@@ -1,0 +1,7 @@
+services:
+  wellthefood-web:
+    build: .
+    container_name: wellthefood_web
+    restart: always
+    ports:
+      - "3004:80"

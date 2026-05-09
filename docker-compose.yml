@@ -4,4 +4,4 @@ services:
     container_name: wellthefood_web
     restart: always
     ports:
-      - "3004:80"
+      - "3003:80"
